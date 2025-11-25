@@ -33,3 +33,14 @@ El target que se predece es `is_spam`, es decir, si un correo es `spam = 1` o `h
 | :----- | :----- | :----- |
 | text | object | Cuerpo del email |
 | is_spam | int64 | `spam` = 1 / `ham` = 0 |
+
+## Google Colab
+
+<!-- [Cuaderno jupyter]() -->
+
+## Creditos:
+
+Máster de FP en Inteligencia Artifical y Big Data - CPIFP Alan Turing
+
+* [Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR)
+* [Elías Robles Ruiz](https://github.com/eliasrrobles)
