@@ -1,6 +1,6 @@
 # 📧 Detection Spam
 
-El proyecto trata de construir un modelo de Machine Learning capaz de clasificar si un email es spam o no.
+El objetivo de este proyecto es desarrollar un sistema de clasificación automática capaz de distinguir entre correos electrónicos normales (ham) y correos electrónicos no deseados (spam).
 
 ## Obtención de datos
 
@@ -34,9 +34,19 @@ El target que se predece es `is_spam`, es decir, si un correo es `spam = 1` o `h
 | text | object | Cuerpo del email |
 | is_spam | int64 | `spam` = 1 / `ham` = 0 |
 
+![nube de palabras](/img/nube.png)
+
+## Modelo de machine learning
+
+Después de evaluar todos los modelos, el que tuvo mejores resultados fue el `LinearSVC` con una precisión del **98.65%**, también muy cerca tenemos al `Logistic Regression`, ambos tienen mejores resultado que el resto de algoritmos.
+
+![linear_svc](/img/linear_svc.png) 
+
+![accuracy](/img/accuracy.png) 
+
 ## Google Colab
 
-<!-- [Cuaderno jupyter]() -->
+[Cuaderno jupyter](https://colab.research.google.com/drive/1a3b8UWTQ0CzpIkR-b7MzMVBhwbr4EvJl?usp=sharing)
 
 ## Creditos:
 
@@ -44,3 +54,5 @@ Máster de FP en Inteligencia Artifical y Big Data - CPIFP Alan Turing
 
 * [Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR)
 * [Elías Robles Ruiz](https://github.com/eliasrrobles)
+
+![CPIFP Alan Turing](/img/alan_turing.png)
