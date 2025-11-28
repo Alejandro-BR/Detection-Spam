@@ -38,7 +38,7 @@ El target que se predece es `is_spam`, es decir, si un correo es `spam = 1` o `h
 
 ## Modelo de machine learning
 
-Después de evaluar todos los modelos, el que tuvo mejores resultados fue el `LinearSVC` con una precisión del **98.65%**, también muy cerca tenemos al `Logistic Regression`, ambos tienen mejores resultado que el resto de algoritmos.
+Después de evaluar todos los modelos, el que tuvo mejores resultados fue el `LinearSVC` con una precisión del **98.55%**, también muy cerca tenemos al `Logistic Regression`, ambos tienen mejores resultado que el resto de algoritmos.
 
 ![linear_svc](/img/linear_svc.png) 
 
