@@ -50,9 +50,9 @@ Después de evaluar todos los modelos, el que tuvo mejores resultados fue el `Li
 
 ## Creditos:
 
-Máster de FP en Inteligencia Artifical y Big Data - CPIFP Alan Turing
-
 * [Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR)
 * [Elías Robles Ruiz](https://github.com/eliasrrobles)
 
-![CPIFP Alan Turing](/img/alan_turing.png)
+Máster de FP en Inteligencia Artifical y Big Data - CPIFP Alan Turing
+
+<img src="./img/alan_turing.png" width="150"/>
